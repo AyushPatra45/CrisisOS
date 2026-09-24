@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scenario": "double-fault",
+  "seed": 8192,
+  "actions": []
+}

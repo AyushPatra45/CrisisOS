@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "scenario": "blackout",
+  "seed": 2049,
+  "actions": [
+    {
+      "id": "priority-west",
+      "kind": "reroute",
+      "target": "r1",
+      "tick": 1
+    },
+    {
+      "id": "shelter-west",
+      "kind": "shelter",
+      "target": "oldtown",
+      "tick": 1
+    },
+    {
+      "id": "repair-west",
+      "kind": "restore",
+      "target": "west",
+      "tick": 7
+    }
+  ]
+}
